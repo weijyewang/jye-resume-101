@@ -1,0 +1,76 @@
+$medium-padding: 40px;
+$common-left-right-padding: $medium-padding;
+
+.resume-header {
+    display: flex;
+    background-color: #374458;
+    padding: $common-left-right-padding;
+
+    .header-content {
+        flex: 1;
+    }
+    .candidate-name {
+        font-size: 40px;
+        color: #fff;
+        font-weight: 500;
+        margin: 0;
+    }
+
+    .subtitle {
+        color: #2dbc9b;
+        font-weight: 500;
+        margin: 0;
+        margin-top: 10px;
+    }
+
+    .candidate-intro {
+        margin-top: 20px;
+        color: #fff;
+        line-height: 1.25;
+    }
+
+    .candidate-img-container {
+        .candidate-img {
+            border-radius: 100%;
+            border: 7px solid #2dbc9b;
+            object-fit: cover;
+            width: 170px;
+        }
+    }
+}
+
+.candidate-contact {
+    background-color: #2b343f;
+    padding: 15px $common-left-right-padding;
+    color: #fff;
+    font-size: 0.9em;
+
+    .row {
+        margin: 12px 0;
+        display: flex;
+        align-items: center;
+
+        .contact-item-group {
+            flex: 1;
+            
+            .icon {
+                min-width: 18px;
+                margin-right: 10px;
+                font-size: 1.2em;
+            }
+
+            a {
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+    }
+
+    .row:first-child {
+        margin-top: 0;
+    }
+
+    .row:last-child {
+        margin-bottom: 5px;
+    }
+}
