@@ -1,10 +1,13 @@
-$medium-padding: 40px;
-$common-left-right-padding: $medium-padding;
+$mediumPadding: 40px;
+$commonLeftRightPadding: $mediumPadding;
+$darkerFontColor: #000;
+$lessDarkerFontColor: #818181;
 
 .resume-header {
     display: flex;
     background-color: #374458;
-    padding: $common-left-right-padding;
+    padding: $commonLeftRightPadding;
+    align-items: center;
 
     .header-content {
         flex: 1;
@@ -26,10 +29,11 @@ $common-left-right-padding: $medium-padding;
     .candidate-intro {
         margin-top: 20px;
         color: #fff;
-        line-height: 1.25;
     }
 
     .candidate-img-container {
+        margin-left: 30px;
+        
         .candidate-img {
             border-radius: 100%;
             border: 7px solid #2dbc9b;
@@ -42,7 +46,7 @@ $common-left-right-padding: $medium-padding;
 
 .candidate-contact {
     background-color: #2b343f;
-    padding: 15px $common-left-right-padding;
+    padding: 15px $commonLeftRightPadding;
     color: #fff;
     font-size: 0.9em;
 
@@ -78,11 +82,53 @@ $common-left-right-padding: $medium-padding;
 
 .profile-content {
     display: flex;
-    padding: 15px $common-left-right-padding;
+    padding: 15px $commonLeftRightPadding;
 
     .experience {
         flex: 3;
-        padding-left: 10px;
+        padding-left: 20px;
+
+        .experience-item-group {
+            padding: 30px 0;
+
+            .company-section {
+                display: flex;
+                margin-bottom: 20px;
+            }
+
+            .company-details {
+                padding-left: 7px;
+
+                .company-name {
+                    color: $darkerFontColor;
+                    font-weight: bold;
+                    margin-bottom: 2px;
+                    font-size: 1.15em;
+                }
+            }
+
+            .length-of-service,
+            .location,
+            .service-period {
+                color: $lessDarkerFontColor;
+                opacity: .8;
+                font-size: .85em;
+            }
+
+            .job-title {
+                color: $darkerFontColor;
+                font-weight: bold;
+                margin-bottom: 5px;
+            }
+
+            .task-item {
+                padding: 7px 0;
+            }
+
+            .experience-details-group {
+                padding: 10px 0;
+            }
+        }
     }
 
     .skills-and-others {
@@ -105,8 +151,8 @@ $common-left-right-padding: $medium-padding;
                 .circle {
                     border: 2px solid #2dbcad;
                     background-color: #2dbcad;
-                    width: 18px;
-                    height: 18px;
+                    width: 15px;
+                    height: 15px;
                     border-radius: 100%;
                     margin: 0 7px;
                 }

@@ -357,4 +357,21 @@ body {
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   font-size: 16px;
   color: #575757;
+  line-height: 1.25;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #656e83;
+}
+
+
+.resume-container {
+  max-width: 950px;
+  max-height: 95vh;
+  overflow: auto;
+  background-color: #fff;
+  box-shadow: 1px 0 15px rgba(0,0,0,.3);
+  border-radius: 5px;
 }
