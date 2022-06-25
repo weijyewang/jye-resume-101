@@ -1,7 +1,7 @@
 $mediumPadding: 40px;
 $commonLeftRightPadding: $mediumPadding;
 $darkerFontColor: #000;
-$lessDarkerFontColor: #696969;
+$lessDarkerFontColor: #757575;
 
 .resume-header {
     display: flex;
@@ -89,7 +89,7 @@ $lessDarkerFontColor: #696969;
     padding: 15px $commonLeftRightPadding;
 
     .experience {
-        flex: 3;
+        flex: 2;
         padding-left: 20px;
 
         .experience-item-group {
@@ -115,7 +115,7 @@ $lessDarkerFontColor: #696969;
             .location,
             .service-period {
                 color: $lessDarkerFontColor;
-                opacity: .8;
+                opacity: .85;
                 font-size: .85em;
             }
 
@@ -170,6 +170,32 @@ $lessDarkerFontColor: #696969;
                 .circle.empty {
                     background-color: unset;
                 }
+            }
+        }
+
+        .education-item-group {
+            padding: 15px 0;
+
+            .program-name {
+                color: $darkerFontColor;
+                font-weight: 700;
+                font-size: 1.1em;
+                padding-bottom: 7px;
+            }
+
+            .university-group {
+                display: flex;
+                align-items: center;
+
+                .university-details {
+                    padding-left: 15px;
+                }
+            }
+
+            .enrollment-period {
+                color: $lessDarkerFontColor;
+                opacity: .85;
+                font-size: .85em;
             }
         }
     }
