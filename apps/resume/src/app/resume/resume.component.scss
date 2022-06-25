@@ -1,7 +1,7 @@
 $mediumPadding: 40px;
 $commonLeftRightPadding: $mediumPadding;
 $darkerFontColor: #000;
-$lessDarkerFontColor: #818181;
+$lessDarkerFontColor: #696969;
 
 .resume-header {
     display: flex;
@@ -51,9 +51,12 @@ $lessDarkerFontColor: #818181;
     font-size: 0.9em;
 
     .row {
-        margin: 12px 0;
         display: flex;
         align-items: center;
+
+        & > div {
+            margin: 5px 0;
+        }
 
         .contact-item-group {
             flex: 1;
@@ -82,6 +85,7 @@ $lessDarkerFontColor: #818181;
 
 .profile-content {
     display: flex;
+    flex-wrap: wrap;
     padding: 15px $commonLeftRightPadding;
 
     .experience {
@@ -174,5 +178,31 @@ $lessDarkerFontColor: #818181;
         color: #2dbcad;
         font-weight: 500;
         font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .resume-header {
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+
+        .header-content {
+            h1, h2 {
+                text-align: center;
+            }
+        }
+    }
+
+    .candidate-contact .row {
+        flex-direction: column;
+        align-items: unset;
+    }
+
+    .profile-content {
+        flex-direction: column;
+
+        .experience {
+            padding-left: 0;
+        }
     }
 }
