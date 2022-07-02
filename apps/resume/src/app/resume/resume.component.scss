@@ -1,7 +1,9 @@
 $mediumPadding: 40px;
 $commonLeftRightPadding: $mediumPadding;
 $darkerFontColor: #000;
-$lessDarkerFontColor: #757575;
+$lessDarkerFontColor: #6d6d6d;
+$smFontSize: .85em;
+$lowLightFont: .88;
 
 .resume-header {
     display: flex;
@@ -116,8 +118,8 @@ $lessDarkerFontColor: #757575;
             .location,
             .service-period {
                 color: $lessDarkerFontColor;
-                opacity: .85;
-                font-size: .85em;
+                opacity: $lowLightFont;
+                font-size: $smFontSize;
             }
 
             .job-title {
@@ -197,8 +199,8 @@ $lessDarkerFontColor: #757575;
 
             .enrollment-period {
                 color: $lessDarkerFontColor;
-                opacity: .85;
-                font-size: .85em;
+                opacity: $lowLightFont;
+                font-size: $smFontSize;
             }
         }
     }
@@ -207,6 +209,14 @@ $lessDarkerFontColor: #757575;
         color: #2dbcad;
         font-weight: 500;
         font-size: 2em;
+    }
+
+    section {
+        padding: 1.75em 0;
+
+        &:first-child {
+            padding-top: 0;
+        }
     }
 }
 
