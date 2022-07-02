@@ -12,8 +12,9 @@ $lessDarkerFontColor: #757575;
     .header-content {
         flex: 1;
     }
+
     .candidate-name {
-        font-size: 40px;
+        font-size: 3em;
         color: #fff;
         font-weight: 500;
         margin: 0;
@@ -33,7 +34,7 @@ $lessDarkerFontColor: #757575;
 
     .candidate-img-container {
         margin-left: 30px;
-        
+
         .candidate-img {
             border-radius: 100%;
             border: 7px solid #2dbc9b;
@@ -54,13 +55,13 @@ $lessDarkerFontColor: #757575;
         display: flex;
         align-items: center;
 
-        & > div {
+        &>div {
             margin: 5px 0;
         }
 
         .contact-item-group {
             flex: 1;
-            
+
             .icon {
                 min-width: 18px;
                 margin-right: 10px;
@@ -160,9 +161,11 @@ $lessDarkerFontColor: #757575;
                     border-radius: 100%;
                     margin: 0 7px;
                 }
+
                 .circle:first-child {
                     margin-left: 0;
                 }
+
                 .circle:last-child {
                     margin-right: 0;
                 }
@@ -203,7 +206,7 @@ $lessDarkerFontColor: #757575;
     .section-header {
         color: #2dbcad;
         font-weight: 500;
-        font-size: 28px;
+        font-size: 2em;
     }
 }
 
@@ -213,7 +216,9 @@ $lessDarkerFontColor: #757575;
         justify-content: center;
 
         .header-content {
-            h1, h2 {
+
+            h1,
+            h2 {
                 text-align: center;
             }
         }
@@ -230,5 +235,11 @@ $lessDarkerFontColor: #757575;
         .experience {
             padding-left: 0;
         }
+    }
+}
+
+@media print {
+    .profile-content {
+        background-color: #ffffff;
     }
 }

@@ -375,3 +375,44 @@ body {
   box-shadow: 1px 0 15px rgba(0,0,0,.3);
   border-radius: 5px;
 }
+
+@media print {
+
+  header,
+  footer,
+  aside,
+  nav,
+  form,
+  iframe,
+  .menu,
+  .hero,
+  .adslot {
+      display: none;
+  }
+
+  html,
+  body {
+    background-color: #ffffff;
+    font-size: 14pt;
+  }
+
+  a:link:after,
+  a:visited:after {
+    content: "" !important;
+  }
+
+  .resume-container {
+    max-width: 100vw;
+    max-height: 100vh;
+    overflow: unset;
+    break-inside: auto;
+    background-color: #fff;
+    box-shadow: 1px 0 15px rgba(0,0,0,.3);
+    border-radius: 5px;
+  }
+
+  @page{
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
+}
