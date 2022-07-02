@@ -393,7 +393,7 @@ body {
   html,
   body {
     background-color: #ffffff;
-    font-size: 14pt;
+    font-size: 16pt;
   }
 
   a:link:after,
@@ -411,8 +411,17 @@ body {
     border-radius: 5px;
   }
 
-  @page{
-    margin-top: 150px;
-    margin-bottom: 150px;
+  body {
+    margin: 0;
   }
+
+  @page {
+    size: A3 portrait;
+    margin: 0.4in 0; // margin for each printed piece of paper
+  }
+  
+  @page :first {
+    margin-top: 0in; // top margin for first page of paper
+  }
+  
 }
