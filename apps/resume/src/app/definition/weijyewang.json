@@ -1,0 +1,146 @@
+{
+    "theme": "midninight blue light",
+    "candidateName": "Wei-Jye Wang",
+    "title": "Overall technologist focusing on front-end",
+    "summary": "Wei-Jye is an Angular developer and Software Ninjaneer. As a web and mobile hybrid developer focusing on front-end, Wei-Jye enjoys solving coding challenges, particularly in UI and UX design. In his free time, Wei-Jye loves to explore GitHub looking for opportunities to learn and contribute to open-source projects. He believes in free, open-source software. His love for anime and games is just a little less than his love for coding.",
+    "avatarUrl": "/assets/candidate-img.jpg",
+    "contactInfo": {
+        "email": "wang.weijye@gmail.com",
+        "phone": "+6012 696 5947",
+        "location": "Penang, Malaysia",
+        "linkedin": "https://www.linkedin.com/in/wei-jye-wang",
+        "github": "https://github.com/weijyewang",
+        "stackoverflow": "https://stackoverflow.com/users/2887127/wei-jye"
+    },
+    "skills": [
+        {"skillName": "Angular", "proficiency": "5"},
+        {"skillName": "TypeScript", "proficiency": "5"},
+        {"skillName": "JavaScript", "proficiency": "5"},
+        {"skillName": "HTML", "proficiency": "5"},
+        {"skillName": "CSS", "proficiency": "5"},
+        {"skillName": "SASS / SCSS", "proficiency": "4"},
+        {"skillName": "Ionic", "proficiency": "4"},
+        {"skillName": "React", "proficiency": "3"},
+        {"skillName": "Nx", "proficiency": "3"},
+        {"skillName": "Node.js", "proficiency": "2"},
+        {"skillName": "Nest.js", "proficiency": "2"}
+    ],
+    "education": [
+        {"programName": "Bachelor of Computer Science", "universityName": "University of Wollongong", "universityLogoUrl": "/assets/uow.png", "enrollmentPeriod": "Feb 2012 - August 2014"},
+        {"programName": "Diploma in Information Technology", "universityName": "Inti International College Penang", "universityLogoUrl": "/assets/inti.png", "enrollmentPeriod": "May 2009 - December 2011"},
+        {"programName": "High School Diploma in Science Stream", "universityName": "Chung Ling (National Type) High School 槟城钟灵(国民型)中学", "universityLogoUrl": "/assets/clhs.jpg", "enrollmentPeriod": "Jan 2004 - December 2008"}
+    ],
+    "languages": [
+        {"languageName": "English", "proficiency": "4"},
+        {"languageName": "Chinese", "proficiency": "4"},
+        {"languageName": "Malay", "proficiency": "3"},
+        {"languageName": "Cantonese", "proficiency": "3"}
+    ],
+    "workExperience": [
+        {
+            "company": {
+                "companyName": "Nintex",
+                "companyLogoUrl": "/assets/nintex.jpg",
+                "isCurrent": "true",
+                "lengthOfService": "Present",
+                "startDate": "Aug 2021",
+                "endDate": "undefined",
+                "location": "Kuala Lumpur, Malaysia"
+            },
+            "positions": [
+                {
+                    "positionTitle": "Senior Engineer", 
+                    "startDate": "Aug 2021",
+                    "endDate": "undefined",
+                    "serviceDuration": "undefined",
+                    "description": [
+                        "Developing form app (Angular) that lives within workflow app (React). Technologies used in web development including native HTML5 and CSS, TypeScript, Angular, a little bit of React and other open-source packages."
+                    ]
+                }
+            ]
+        },
+        {
+            "company": {
+                "companyName": "Oracle",
+                "companyLogoUrl": "/assets/oracle.jpg",
+                "isCurrent": "false",
+                "lengthOfService": "8 months",
+                "startDate": "Dec 2020",
+                "endDate": "July 2021",
+                "location": "Kuala Lumpur, Malaysia"
+            },
+            "positions": [
+                {
+                    "positionTitle": "Senior Software Engineer", 
+                    "startDate": "Dec 2020",
+                    "endDate": "July 2021",
+                    "serviceDuration": "8 months",
+                    "description": [
+                        "Developing Progressive Web Apps (front-end) for Cruise Ship Management and Cruise Software. Skills involved including native HTML5, SCSS, JavaScript, TypeScript, Preact, Oracle jet framework and other open-source packages.",
+                        "Doing code review for the front-end projects. Working with Technical Architect to drives Proof of Concept for the next gen apps build based on the new Oracle Redwood Design Framework and Preact."
+                    ]
+                }
+            ]
+        },
+        {
+            "company": {
+                "companyName": "Vector Solutions Sdn Bhd",
+                "companyLogoUrl": "/assets/vector.png",
+                "isCurrent": "false",
+                "lengthOfService": "2 years",
+                "startDate": "Jan 2018",
+                "endDate": "Jan 2020",
+                "location": "Penang, Malaysia"
+            },
+            "positions": [
+                {
+                    "positionTitle": "Software Engineer", 
+                    "startDate": "Dec 2020",
+                    "endDate": "July 2021",
+                    "serviceDuration": "8 months",
+                    "description": [
+                        "Leading the development for web apps (front-end) and mobile hybrid apps (Android and iOS) in cargo security and tracking system. Skills involved including native HTML5, SCSS, JavaScript, TypeScript, Angular, Ionic framework and other open-source packages.",
+                        "Planning, architect and design projects from scratch, including project planning for new features, bug fixes and releasing a new version.",
+                        "Design and create Graphical User Interface for web apps and mobile apps. Design marketing materials such as brochure and flyers.",
+                        "Creating presentation materials for business meetings with client and planning for project schedules. Presenting features and applications demo to potential customers",
+                        "Training and mentoring new hires on technical works."
+                    ]
+                }
+            ]
+        },
+        {
+            "company": {
+                "companyName": "Intel Corporation",
+                "companyLogoUrl": "/assets/intel.jpg",
+                "isCurrent": "false",
+                "lengthOfService": "3 years 5 months",
+                "startDate": "Sep 2014",
+                "endDate": "Jan 2018",
+                "location": "Penang, Malaysia"
+            },
+            "positions": [
+                {
+                    "positionTitle": "Software Engineer", 
+                    "startDate": "May 2015",
+                    "endDate": "Jan 2018",
+                    "serviceDuration": "2 years 9 months",
+                    "description": [
+                        "Developing multiple web apps (front-end) in a large enterprise cloud system. Technologies used in web development including native HTML5 and CSS, JavaScript, Angular, Angular.js, Node.js, Grunt and other open-source packages",
+                        "Developing web infrastructure and framework using Angular.js, Node.js, Gulp.js and other open-source libraries/packages. Involved in both front-end and back-end development.",
+                        "Mentoring graduate trainees and interns that join the team. Mainly providing guidance on the technical works."
+                    ]
+                },
+                {
+                    "positionTitle": "Graduate Trainee", 
+                    "startDate": "Sep 2014",
+                    "endDate": "May 2015",
+                    "serviceDuration": "9 months",
+                    "description": [
+                        "Developing a generator that is able to scaffold Angular based web projects. Day to day deliverable also includes components/libraries (such as Gantt Chart, Wafer Map, Heat Map etc.) development and support that are specifically created for fellow Intel web developer (Software Engineers) to consume in the web apps that they are developing.",
+                        "Creates RESTful API using Node.js and express.js with mini backend infrastructure."
+                    ]
+                }
+            ]
+        }
+    ]
+}
