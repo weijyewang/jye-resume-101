@@ -4,6 +4,7 @@
   "projectType": "application",
   "sourceRoot": "apps/resume/src",
   "prefix": "jye-resume",
+  "tags": [],
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",
@@ -29,8 +30,8 @@
             },
             {
               "type": "anyComponentStyle",
-              "maximumWarning": "2kb",
-              "maximumError": "4kb"
+              "maximumWarning": "9kb",
+              "maximumError": "12kb"
             }
           ],
           "fileReplacements": [
@@ -56,10 +57,10 @@
       "executor": "@angular-devkit/build-angular:dev-server",
       "configurations": {
         "production": {
-          "browserTarget": "resume:build:production"
+          "buildTarget": "resume:build:production"
         },
         "development": {
-          "browserTarget": "resume:build:development"
+          "buildTarget": "resume:build:development"
         }
       },
       "defaultConfiguration": "development",
@@ -70,23 +71,22 @@
     "extract-i18n": {
       "executor": "@angular-devkit/build-angular:extract-i18n",
       "options": {
-        "browserTarget": "resume:build"
+        "buildTarget": "resume:build"
       }
     },
     "lint": {
-      "executor": "@nrwl/linter:eslint",
+      "executor": "@nx/eslint:lint",
       "options": {
         "lintFilePatterns": ["apps/resume/**/*.ts", "apps/resume/**/*.html"]
       }
     },
     "test": {
-      "executor": "@nrwl/jest:jest",
+      "executor": "@nx/jest:jest",
       "outputs": ["{workspaceRoot}/coverage/apps/resume"],
       "options": {
         "jestConfig": "apps/resume/jest.config.ts",
         "passWithNoTests": true
       }
     }
-  },
-  "tags": []
+  }
 }

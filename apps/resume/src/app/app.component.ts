@@ -4,6 +4,7 @@ import { Message } from '@jye-resume/api-interfaces';
 
 @Component({
   selector: 'jye-resume-root',
+  standalone: false,
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })

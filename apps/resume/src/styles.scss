@@ -25,6 +25,30 @@ body {
   margin: 0;
 }
 
+@media print {
+  @page {
+    background: #090b16;
+    margin: 0;
+    size: A2 landscape;
+  }
+
+  html,
+  body,
+  .resume-container {
+    -webkit-print-color-adjust: exact;
+    background: #090b16 !important;
+    print-color-adjust: exact;
+  }
+
+  body::before {
+    background: #090b16;
+    content: '';
+    inset: 0;
+    position: fixed;
+    z-index: -1;
+  }
+}
+
 /**
    * Render the `main` element consistently in IE.
    */
