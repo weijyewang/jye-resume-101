@@ -23,29 +23,22 @@ html {
 
 body {
   margin: 0;
+  background: #171717;
 }
 
 @media print {
   @page {
-    background: #090b16;
-    margin: 0;
-    size: A2 landscape;
+    margin: 10mm;
+    size: A4 portrait;
+    background: #171717;
   }
 
   html,
   body,
   .resume-container {
     -webkit-print-color-adjust: exact;
-    background: #090b16 !important;
+    background: #171717 !important;
     print-color-adjust: exact;
-  }
-
-  body::before {
-    background: #090b16;
-    content: '';
-    inset: 0;
-    position: fixed;
-    z-index: -1;
   }
 }
 
@@ -377,75 +370,20 @@ template {
 
 html,
 body {
-  font-family: 'Aktiv Grotesk', 'Segoe UI', Helvetica, Arial, sans-serif,
-    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   font-size: 16px;
-  color: #575757;
-  line-height: 1.25;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  height: 100vh;
-  background-color: #656e83;
+  width: 100%;
+  min-height: 100%;
+  background-color: #171717;
 }
 
 
 .resume-container {
-  max-width: 950px;
-  max-height: 95vh;
-  overflow: auto;
-  background-color: #fff;
-  box-shadow: 1px 0 15px rgba(0,0,0,.3);
-  border-radius: 5px;
+  width: 100%;
 }
 
 @media print {
-
-  header,
-  footer,
-  aside,
-  nav,
-  form,
-  iframe,
-  .menu,
-  .hero,
-  .adslot {
-      display: none;
-  }
-
-  html,
-  body {
-    background-color: #ffffff;
-    font-size: 16pt;
-  }
-
   a:link:after,
   a:visited:after {
     content: "" !important;
   }
-
-  .resume-container {
-    max-width: 100vw;
-    max-height: 100vh;
-    overflow: unset;
-    break-inside: auto;
-    background-color: #fff;
-    box-shadow: 1px 0 15px rgba(0,0,0,.3);
-    border-radius: 5px;
-  }
-
-  body {
-    margin: 0;
-  }
-
-  @page {
-    size: A3 portrait;
-    margin: 0.4in 0; // margin for each printed piece of paper
-  }
-  
-  @page :first {
-    margin-top: 0in; // top margin for first page of paper
-  }
-  
 }

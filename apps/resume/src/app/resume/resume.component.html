@@ -1,49 +1,58 @@
-<div class="resume-page">
-    <section class="hero-panel" title="hero">
+<div class="resume-page" id="top">
+    <section class="hero-panel" aria-labelledby="candidate-name">
         <div class="hero-copy">
-            <div class="hero-overline">Senior Front-End Engineer · React &amp; Next.js · Product Platform Builder</div>
-            <div class="eyebrow">Penang, Malaysia · Front-end engineering, platform thinking, and product-quality UX</div>
-            <h1 class="candidate-name">Wei-Jye Wang</h1>
+            <div class="hero-overline">Staff Engineer / Front-End Architecture</div>
+            <h1 class="candidate-name" id="candidate-name">Wei-Jye Wang</h1>
+            <div class="career-signals" aria-label="Career highlights">
+                <a class="employer-link" href="#intel"><span>Previously at</span><strong>Intel</strong></a>
+                <a class="employer-link" href="#oracle"><span>Previously at</span><strong>Oracle</strong></a>
+                <a class="employer-link" href="#nintex"><span>Currently at</span><strong>Nintex</strong></a>
+            </div>
             <p class="hero-intro">
-                Senior engineer with more than a decade of experience building React and Next.js products, Angular applications,
+                Staff Engineer at Nintex, with previous experience at Intel and Oracle and more than a decade building React and Next.js products, Angular applications,
                 internal platforms, and supporting APIs. Strongest in TypeScript, UI architecture, Nx monorepos, and developer
                 experience, with enough backend depth to move product work end to end when scope crosses the stack.
             </p>
 
             <div class="role-pills" title="target roles">
-                <span class="role-pill">Senior Front-End Engineer</span>
+                <span class="role-pill">Staff Engineer</span>
                 <span class="role-pill">React / Next.js Lead</span>
                 <span class="role-pill">Product Platform Engineer</span>
             </div>
 
-            <div class="hero-highlights">
-                <div class="highlight-card">
-                    <div class="highlight-value">11+ years</div>
-                    <div class="highlight-label">shipping production web products and internal engineering tools</div>
-                </div>
-                <div class="highlight-card">
-                    <div class="highlight-value">React + Next.js</div>
-                    <div class="highlight-label">current focus across product UI architecture, App Router patterns, and maintainable delivery</div>
-                </div>
-                <div class="highlight-card">
-                    <div class="highlight-value">Angular + Nx</div>
-                    <div class="highlight-label">strong in Angular delivery, Nx monorepo ownership, and frontend platform architecture</div>
-                </div>
-            </div>
         </div>
 
         <div class="hero-aside">
             <div class="candidate-img-container">
-                <img class="candidate-img" src="/assets/candidate-img.jpg" alt="Wei-Jye Wang portrait">
+                <img class="candidate-img" src="/assets/profile-portrait.png" width="666" height="768" alt="Wei-Jye Wang portrait">
             </div>
-            <div class="hero-aside-card">
-                <div class="aside-label">Current Focus</div>
-                <div class="aside-title">React and Next.js platform delivery, Angular microfrontends, and UI systems that scale with product complexity.</div>
+        </div>
+
+        <div class="hero-highlights">
+            <div class="highlight-card">
+                <div class="highlight-value">11+ years</div>
+                <div class="highlight-label">shipping production web products and internal engineering tools</div>
+            </div>
+            <div class="highlight-card">
+                <div class="highlight-value">React + Next.js</div>
+                <div class="highlight-label">current focus across product UI architecture, App Router patterns, and maintainable delivery</div>
+            </div>
+            <div class="highlight-card">
+                <div class="highlight-value">Angular + Nx</div>
+                <div class="highlight-label">strong in Angular delivery, Nx monorepo ownership, and frontend platform architecture</div>
+            </div>
+            <div class="highlight-card">
+                <div class="highlight-value">Spec-driven AI</div>
+                <div class="highlight-label">GitHub Copilot and spec-kit, guided by clear specifications, code review, and validation</div>
             </div>
         </div>
     </section>
 
-    <section class="contact-panel" title="contact">
+    <section class="contact-panel" id="contact" aria-label="Contact details">
+        <a class="contact-card" href="https://weijyewang.github.io/" target="_blank" rel="noreferrer">
+            <i class="icon fa-solid fa-globe" aria-hidden="true"></i>
+            <span>weijyewang.github.io</span>
+        </a>
         <a class="contact-card" href="mailto:wang.weijye@gmail.com">
             <i class="icon fa-solid fa-envelope"></i>
             <span>wang.weijye@gmail.com</span>
@@ -64,24 +73,15 @@
             <i class="icon fa-brands fa-github"></i>
             <span>github.com/weijyewang</span>
         </a>
-        <a class="contact-card" href="https://stackoverflow.com/users/2887127/wei-jye" target="_blank" rel="noreferrer">
-            <i class="icon fa-brands fa-stack-overflow"></i>
-            <span>stackoverflow.com/users/2887127/wei-jye</span>
-        </a>
     </section>
 
     <div class="content-grid">
         <aside class="sidebar-column">
-            <section class="content-card" title="strengths">
-                <h2 class="section-header">What I Bring</h2>
-                <div class="strength-item">Builds scalable React and Next.js products with a strong emphasis on maintainability, routing architecture, and developer experience.</div>
-                <div class="strength-item">Connects product thinking and engineering execution through UI/UX awareness, accessibility, code review, and cross-functional collaboration.</div>
-                <div class="strength-item">Comfortable working across the stack when needed, especially around Node.js, APIs, auth flows, monorepos, and CI pipelines.</div>
-            </section>
-
-            <section class="content-card" title="skills">
+            <section class="content-card" title="skills" id="expertise">
                 <h2 class="section-header">Core Stack</h2>
                 <div class="tag-cloud">
+                    <span class="tag">GitHub Copilot</span>
+                    <span class="tag">GitHub spec-kit</span>
                     <span class="tag">React</span>
                     <span class="tag">Next.js</span>
                     <span class="tag">TypeScript</span>
@@ -93,14 +93,13 @@
                     <span class="tag">Nx</span>
                     <span class="tag">Node.js</span>
                     <span class="tag">NestJS</span>
-                    <span class="tag">App Router</span>
-                    <span class="tag">Playwright</span>
                     <span class="tag">Accessibility</span>
                     <span class="tag">Microfrontends</span>
                     <span class="tag">PWAs</span>
                     <span class="tag">Design Systems</span>
                     <span class="tag">CI Pipelines</span>
                     <span class="tag">Azure Pipelines</span>
+                    <span class="tag">Spec-Driven AI Development</span>
                 </div>
             </section>
 
@@ -124,7 +123,7 @@
                     <div class="program-name">Diploma in Information Technology</div>
                     <div class="university-group">
                         <div class="university-logo-container">
-                            <img class="university-logo" src="/assets/inti.png" width="50" alt="Inti logo">
+                            <img class="university-logo" src="/assets/inti.jpeg" width="50" alt="Inti logo">
                         </div>
                         <div class="university-details">
                             <div class="university-name">Inti International College Penang</div>
@@ -160,49 +159,66 @@
             <section class="content-card" title="summary">
                 <h2 class="section-header">Professional Summary</h2>
                 <p class="summary-copy">
-                    I am most effective in teams that value thoughtful engineering, strong product instincts, and clean execution.
+                    As a Staff Engineer at Nintex, I combine frontend architecture, product thinking, and hands-on delivery.
                     My background spans enterprise applications, internal frameworks, customer-facing web products, and hybrid mobile apps.
-                    My current work is centered on React and Next.js inside an Nx monorepo, alongside Angular microfrontends and supporting platform services.
+                    I lead technical direction for React microfrontend experiences, shared design systems, and common navigation,
+                    building on hands-on delivery across React, Next.js, Angular, and Nx monorepos.
                     Across those environments, I have consistently been the engineer who helps translate ambiguous requirements into stable,
                     maintainable interfaces while also improving code quality, team workflow, and delivery confidence.
                 </p>
             </section>
 
-            <section class="content-card" title="experience">
+            <section class="content-card" title="experience" id="experience">
                 <h2 class="section-header">Selected Experience</h2>
 
-                <div class="experience-item-group current-role">
+                <div class="experience-item-group current-role" id="nintex">
                     <div class="company-section">
-                        <img class="company-logo company-logo-wide" src="/assets/nintex-logo.svg" alt="Nintex logo">
+                        <span class="company-logo-frame">
+                            <img class="company-logo" src="/assets/nintex-linkedin.jpg" width="100" height="100" alt="Nintex logo">
+                        </span>
                         <div class="company-details">
                             <div class="company-badge">Current</div>
-                            <div class="company-name">Nintex</div>
-                            <div class="meta-line">Senior Engineer · Aug 2021 - Present</div>
-                            <div class="meta-line">Kuala Lumpur, Malaysia</div>
+                            <h3 class="company-name">Nintex</h3>
+                            <div class="job-title">Staff Engineer</div>
+                            <div class="meta-line">Oct 2026 - Present · Promoted from Senior Engineer</div>
+                            <div class="meta-line">Remote</div>
                         </div>
                     </div>
                     <div class="experience-details-group">
                         <ul>
-                            <li>Build React and Next.js product experiences in an Nx monorepo, including App Router-based flows, shared UI patterns, and platform-level frontend architecture.</li>
-                            <li>Drive Angular microfrontend delivery for forms and workflow capabilities that integrate into the broader React platform.</li>
-                            <li>Improve maintainability through shared tooling, code organization, accessibility (a11y) practices, and stronger day-to-day developer workflow.</li>
-                            <li>Own frontend-led features end to end, including Node.js and NestJS services, and collaborate with DevOps on CI and delivery improvements.</li>
+                            <li>Lead architecture and technical direction for the platform experience across React microfrontends, defining integration patterns between host applications and independently delivered child applications.</li>
+                            <li>Drive the rollout of a shared design system and common navigation across microfrontends, aligning multiple teams around a consistent product experience.</li>
+                            <li>Coordinate releases across teams to deliver shared platform capabilities and integrate changes across host and child applications.</li>
+                            <li>Drive team adoption of specification-driven AI-assisted development with GitHub Copilot and GitHub spec-kit. Apply explicit requirements, architectural constraints, and acceptance criteria to day-to-day coding, with engineer-owned review and validation.</li>
+                        </ul>
+                    </div>
+                    <div class="experience-details-group trainee-block">
+                        <div class="job-title">Senior Engineer</div>
+                        <div class="meta-line">Aug 2021 - Oct 2026 · Malaysia</div>
+                        <ul>
+                            <li>Built React and Next.js product experiences in an Nx monorepo, including App Router flows, shared UI patterns, and maintainable frontend architecture.</li>
+                            <li>Delivered Angular forms within a React workflow platform, alongside React microfrontends and supporting microservices using TypeScript, Node.js, and NestJS.</li>
+                            <li>Improved maintainability through shared tooling, code organization, accessibility practices, and code review.</li>
+                            <li>Owned frontend-led features across the stack and partnered with DevOps on CI pipelines and delivery workflows.</li>
                         </ul>
                     </div>
                 </div>
 
-                <div class="experience-item-group">
+                <div class="experience-item-group" id="oracle">
                     <div class="company-section">
-                        <img class="company-logo" src="/assets/oracle.jpg" height="52" width="52" alt="Oracle logo">
+                        <span class="company-logo-frame">
+                            <img class="company-logo" src="/assets/oracle-linkedin.jpg" height="100" width="100" alt="Oracle logo">
+                        </span>
                         <div class="company-details">
-                            <div class="company-name">Oracle</div>
-                            <div class="meta-line">Senior Software Engineer · Dec 2020 - Jul 2021</div>
+                            <h3 class="company-name">Oracle</h3>
+                            <div class="job-title">Senior Software Engineer</div>
+                            <div class="meta-line">Dec 2020 - Jul 2021</div>
                             <div class="meta-line">Kuala Lumpur, Malaysia</div>
                         </div>
                     </div>
                     <div class="experience-details-group">
                         <ul>
-                            <li>Delivered Progressive Web Applications using HTML5, SCSS, JavaScript, TypeScript, and Preact for enterprise-facing experiences.</li>
+                            <li>Delivered Progressive Web Applications for cruise ship management using HTML5, SCSS, JavaScript, TypeScript, Preact, and Oracle JET.</li>
                             <li>Supported proof-of-concept work and code reviews for products aligned with the Oracle Redwood design framework.</li>
                         </ul>
                     </div>
@@ -210,28 +226,34 @@
 
                 <div class="experience-item-group">
                     <div class="company-section">
-                        <img class="company-logo" src="/assets/vector.png" height="52" width="52" alt="Vector logo">
+                        <span class="company-logo-frame">
+                            <img class="company-logo" src="/assets/vector.png" height="52" width="52" alt="Vector logo">
+                        </span>
                         <div class="company-details">
-                            <div class="company-name">Vector Solutions Sdn Bhd</div>
-                            <div class="meta-line">Software Engineer · Jan 2018 - Jan 2020</div>
+                            <h3 class="company-name">Vector Solutions Sdn Bhd</h3>
+                            <div class="job-title">Software Engineer</div>
+                            <div class="meta-line">Jan 2018 - Jan 2020</div>
                             <div class="meta-line">Penang, Malaysia</div>
                         </div>
                     </div>
                     <div class="experience-details-group">
                         <ul>
-                            <li>Led delivery of web and hybrid mobile applications using Angular, Ionic, and supporting open-source tooling.</li>
+                            <li>Led delivery of web and hybrid Android and iOS applications for cargo security and tracking, using Angular, Ionic, and supporting open-source tooling.</li>
                             <li>Combined engineering and UI design work to ship polished interfaces and supporting marketing assets.</li>
                             <li>Ran demos, onboarded teammates, and helped coordinate planning and delivery across project milestones.</li>
                         </ul>
                     </div>
                 </div>
 
-                <div class="experience-item-group">
+                <div class="experience-item-group" id="intel">
                     <div class="company-section">
-                        <img class="company-logo" src="/assets/intel.jpg" height="52" width="52" alt="Intel logo">
+                        <span class="company-logo-frame">
+                            <img class="company-logo" src="/assets/intel-linkedin.jpg" height="100" width="100" alt="Intel logo">
+                        </span>
                         <div class="company-details">
-                            <div class="company-name">Intel Corporation</div>
-                            <div class="meta-line">Software Engineer · May 2015 - Jan 2018</div>
+                            <h3 class="company-name">Intel Corporation</h3>
+                            <div class="job-title">Software Engineer</div>
+                            <div class="meta-line">May 2015 - Jan 2018</div>
                             <div class="meta-line">Penang, Malaysia</div>
                         </div>
                     </div>
@@ -253,4 +275,8 @@
             </section>
         </main>
     </div>
+    <footer class="page-footer">
+        <span>Wei-Jye Wang &middot; Penang, Malaysia</span>
+        <a href="#top">Back to top <i class="fa-solid fa-arrow-up" aria-hidden="true"></i></a>
+    </footer>
 </div>

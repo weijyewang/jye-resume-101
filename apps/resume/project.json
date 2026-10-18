@@ -16,7 +16,12 @@
         "polyfills": "apps/resume/src/polyfills.ts",
         "tsConfig": "apps/resume/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
-        "assets": ["apps/resume/src/favicon.ico", "apps/resume/src/assets"],
+        "assets": [
+          "apps/resume/src/favicon.ico",
+          "apps/resume/src/favicon-16x16.png",
+          "apps/resume/src/favicon-32x32.png",
+          "apps/resume/src/assets"
+        ],
         "styles": ["apps/resume/src/styles.scss"],
         "scripts": []
       },
